@@ -1,0 +1,229 @@
+body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 110%;
+       
+}
+.main_div{
+        width: 100%;
+        height: 100%;
+}
+header{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(28, 28, 65);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#News_Blog{
+        width: 200px;
+        height: 60px;
+        background-color: white;
+        align-items: center;
+        color: black;
+        text-align: center;
+
+}
+h1{
+        font-size: 15px;
+}
+button{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(25, 145, 243);
+        
+
+}
+aside{
+        width: 200px;
+        height: 200px;
+        background-image: linear-gradient(75deg,gray,white);
+        
+}
+img{
+        width: 200px;
+        height: 200px;
+        
+}
+
+section{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        
+}
+article{
+        width: 100%;
+        padding-left: 50px;
+        
+}
+select{
+        width: 90px;
+}
+#Subscribe-btn{
+        background-color: black;
+        width: 150px;
+        height: 20px;
+        color: white;
+
+}
+
+.continue-btn:hover{
+        cursor: pointer;
+        width: 145px;
+        
+        border-radius: 7px;
+}
+#all_news{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: 70px;
+        
+}
+.continue-btn{
+        border: none;
+        border-bottom-right-radius: 10px solid rgb(159, 159, 159); 
+        box-shadow: 1.5px 1.5px 1.5px rgb(137, 137, 137);
+        border-radius: 5px;
+}
+.all_news_heading{
+        text-transform: uppercase;
+        position: absolute;
+        left : 45%;
+        font-weight : 900;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.select_category{
+        position: absolute;
+        left: 1%;
+}
+.subscribe-div{
+        position: absolute;
+        left: 70%;
+}
+#Subscribe-btn:hover{
+        cursor: pointer;
+}
+p{
+        font-size: 18px;
+}
+.paragraph::first-letter{
+        color: blue;
+        font-size: 30px;
+}
+
+@media screen and (max-width: 600px){
+        p{
+                font-size: 17px;
+                font-family: 'Roboto', sans-serif;
+        }
+        h1{
+                font-size: 15px;
+                font-family: 'Roboto', sans-serif;
+        }
+       .all_news_heading{
+                font-size: 19px;
+                position: absolute;
+                left: 40%;
+                
+       }
+       img{
+        width: 100%;
+       }
+       aside{
+        width: 100%;
+        position: relative;
+        left: 16px;
+       }
+       section{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        }
+        .continue-btn{
+                width: 100px;
+                height: 30px;
+                font-size: 10px;
+                cursor: pointer;
+                
+        }
+        .continue-btn:hover{
+                cursor: pointer;
+        }
+        #Subscribe-btn{
+                width: 100px;
+        
+        }
+        
+        input{
+                width: 100px;
+        }
+        header{
+                width: 110%;
+        }
+}
+@media screen and (min-width:600px ) and (  max-width: 1000px){
+        p{
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+        }
+        h1{
+                font-size: 15px;
+                font-family: 'Roboto', sans-serif;
+        }
+       .all_news_heading{
+                font-size: 19px;
+                position: absolute;
+                left: 49%;
+                
+       }
+       img{
+        width: 100%;
+        height: 100%;
+       }
+       aside{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        left: 16px;
+       }
+       section{
+        width: 108%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        }
+        
+        .continue-btn{
+                width: 100px;
+                height: 30px;
+                font-size: 10px;
+                cursor: pointer;
+                
+        }
+        .continue-btn:hover{
+                cursor: pointer;
+        }
+        #Subscribe-btn{
+                width: 100px;
+        
+        }
+        
+        input{
+                width: 100px;
+        }
+        header{
+                width: 112%;
+        }
+}
